@@ -18,7 +18,7 @@ from bot.get_cfg import get_config
 
 
 class Localisation:
-    START_TEXT = "Hello, \n\nThis is a Telegram Video Compress Bot \n\n<b>Please sent me any Telegram big file I Will compress a small file</b> \n\n/help for more details... \n\nSupport Group :@Dx_Support"
+    START_TEXT = "Hello, \n\nThis is a Telegram Video Compress Bot \n\n<b> JOIN : https://t.me/TGBotsCollection </b>"
    
     ABS_TEXT = " Please don't be selfish."
     
@@ -33,7 +33,7 @@ class Localisation:
     
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
     
     COMPRESS_SUCCESS = "📥 Downloaded in {}\n\n📀 Compressed in {}\n\n📤 Uploaded in {}"
 
