@@ -40,9 +40,9 @@ class Command:
     )
     HELP = get_config(
         "COMMAND_HELP",
-        "help"
+        "vidcompresshelp"
     )
     UPLOAD_LOG_FILE = get_config(
         "COMMAND_UPLOAD_LOG_FILE",
-        "log"
+        "vidcompresslog"
     )
